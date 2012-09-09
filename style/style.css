@@ -50,7 +50,7 @@ body {
 
 
 /*****************************************
-Posts
+Posts   A6B1ED
 *****************************************/
 
 .post h3 {
@@ -60,9 +60,10 @@ Posts
 }
 
 .post {
+  background: rgba(102,45,156,.2);
   padding: 15px;
   color: white;
-  border: 2px double white;
+  border: 2px double #662D9C;
   border-radius: 10px;
   margin-bottom: 30px;
 }
