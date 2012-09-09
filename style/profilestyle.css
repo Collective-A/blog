@@ -1,5 +1,3 @@
-
-
 @font-face {
     font-family: 'ChunkFive';
     src: url('fonts/ChunkFive/Chunkfive-webfont.eot');
@@ -22,79 +20,31 @@
     font-style: normal;
 }
 
+
+
 /*****************************************
-General Header
+Profile Navigation
 *****************************************/
 
-body {
-  background : URL('../images/argyle.png');
-  padding-top: 25px;
-}
-
 #headline {
-  margin-bottom:100px;
-}
-
-#headline h1 {
-  font-size: 5em;
-  font-family: "ChunkFive";
-  color: #FFFFFF;
   margin-bottom: 0px;
 }
 
-#headline h2 {
-  font-family: "GoodDog";
-  font-size: 3em;
-  color: #888;
-}
-
-
-/*****************************************
-Posts
-*****************************************/
-
-.post h3 {
-  color: #B3BEC4;
-  font-size: 1.75em;
-  font-family: "ChunkFive";
-}
-
-.post {
-  padding: 15px;
-  color: white;
-  border: 2px double white;
-  border-radius: 10px;
-  margin-bottom: 30px;
-}
-
-/*****************************************
-Navigation Bar
-*****************************************/
-
-.navigation {
-  float: right;
+#profilenav {
   background: #19062B;
+  height: 30px;
+  margin-bottom: 70px; 
+  padding-top: 5px; 
   border-radius: 10px;
 }
 
-#nav li{
-  margin-bottom: 5px;
+#profilenav li {
+  float: left;
+  margin: 0px 70px;
   list-style: none;
-  font-size: 1.5em;
   font-family: "GoodDog";
+  font-size: 1.5em;
 }
-
-#nav a {
-  text-decoration: none;
-}
-
-
-
-
-
-
-
-
 
 
 
