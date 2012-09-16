@@ -73,6 +73,8 @@ Navigation Bar
 *****************************************/
 
 .navigation {
+  position: right;
+  right: 30px;
   float: right;
   background: #19062B;
   border-radius: 10px;
